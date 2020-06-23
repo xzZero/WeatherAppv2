@@ -68,5 +68,6 @@
         android:orientation="horizontal"
         android:text="Add"
         android:layout_weight="0.05"
-        android:id="@+id/btnAdd"/>
+        android:id="@+id/btnAdd"
+        style="?android:attr/buttonBarButtonStyle"/>
 </LinearLayout>
