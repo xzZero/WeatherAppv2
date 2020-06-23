@@ -32,10 +32,9 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "path";
     private FirebaseDatabase database;
     private DatabaseReference dbRef, dbRef_;
-    private ArrayList<String> cities, avgTemp, temp;
+    private ArrayList<String> cities;
     private ListView list;
     private Button btnAdd;
-    private String out, newTemp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
